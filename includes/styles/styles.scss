@@ -38,7 +38,7 @@ body {
 .section-container {
   background-color: #fff;
   border-radius: 4px;
-  padding: 20px;
+  padding: min(20px, 20%);
 }
 
 
@@ -57,11 +57,11 @@ body {
 /* Fonts */
 *[class^="title-"] {
   font-family: 'Poppins', sans-serif;
-  letter-spacing: -.2;
 }
 .title-h1 {
   font-size: 5.0rem;
   font-weight: 600;
+  letter-spacing: -.1rem;
 
   span {    
     font-weight: 300;
