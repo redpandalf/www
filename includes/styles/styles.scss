@@ -14,9 +14,32 @@ body {
 }
 
 
+/* MAIN CONTAINER */
 .main-container {
   border: 1px solid red;
   max-width: 2000px;
   width: 88%;
   margin: auto;
+
+  display: flex;
+  
+}
+
+/* Aside */
+.aside-container,
+.section-container {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+
+/* Aside */
+.aside-container {
+  width: 30%;
+}
+
+/* Section */
+.section-container {
+  width: 70%;
 }

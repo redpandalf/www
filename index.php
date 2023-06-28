@@ -32,8 +32,8 @@
     <header></header>
 
     <main class="main-container">
-      <aside>Aside</aside>
-      <section>
+      <aside class="aside-container">Aside</aside>
+      <section class="section-container">
         Section
 
       </section>
