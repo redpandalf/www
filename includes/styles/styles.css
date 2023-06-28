@@ -32,6 +32,16 @@ body {
 }
 
 /* Aside */
+.aside-container {
+  width: 30%;
+}
+
+/* Section */
+.section-container {
+  width: 66%;
+}
+
+/* Aside + Section */
 .aside-container,
 .section-container {
   background-color: #fff;
@@ -43,16 +53,6 @@ body {
   .section-container {
     width: 100%;
   }
-}
-
-/* Aside */
-.aside-container {
-  width: 30%;
-}
-
-/* Section */
-.section-container {
-  width: 66%;
 }
 
 /* Fonts */
