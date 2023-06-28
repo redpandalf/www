@@ -23,7 +23,7 @@ body {
 /* MAIN CONTAINER */
 .main-container {
   border: 1px solid red;
-  max-width: 2000px;
+  max-width: 1600px;
   width: 90%;
   margin: auto;
   display: flex;
@@ -46,7 +46,7 @@ body {
 .section-container {
   background-color: #fff;
   border-radius: 4px;
-  padding: 15%;
+  padding: 40px;
 }
 @media screen and (max-width: 768px) {
   .aside-container,
