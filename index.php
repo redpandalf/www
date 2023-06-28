@@ -28,7 +28,16 @@
   </head>
   
   <body>
-Blop toto !
+
+    <header></header>
+
+    <main class="main-container">
+      <aside>Aside</aside>
+      <section>
+        Section
+
+      </section>
+    </main>
 
   </body>
 </html>
