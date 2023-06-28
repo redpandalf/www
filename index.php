@@ -17,9 +17,9 @@
 
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     
-    <link rel="stylesheet/css" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
 
-    <link rel="shortcut icon" href="./assets/img/favicon-panda.png">
+    <link rel="shortcut icon" href="../assets/img/favicon-panda.png">
 
     <!--
     <meta name="google-site-verification" content="67w_gB15PYY4jUTR4sE-5r98CJnIsH5Ij8Ffj6XXUTs">
