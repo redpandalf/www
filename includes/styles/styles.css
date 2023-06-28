@@ -46,7 +46,7 @@ body {
 .section-container {
   background-color: #fff;
   border-radius: 4px;
-  padding: min(40px, 15%);
+  padding: 15%;
 }
 @media screen and (max-width: 768px) {
   .aside-container,
