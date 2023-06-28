@@ -19,8 +19,7 @@
     
     <link rel="stylesheet/css" type="text/css" href="styles/styles.css">
 
-    <script src="assets/js/less-3.0.1.js" type="text/javascript"></script>
-    <link rel="shortcut icon" href="assets/img/favicon-panda.png">
+    <link rel="shortcut icon" href="./assets/img/favicon-panda.png">
 
     <!--
     <meta name="google-site-verification" content="67w_gB15PYY4jUTR4sE-5r98CJnIsH5Ij8Ffj6XXUTs">
