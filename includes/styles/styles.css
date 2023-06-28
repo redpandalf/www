@@ -28,6 +28,7 @@ body {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 /* Aside */
@@ -36,6 +37,12 @@ body {
   background-color: #fff;
   border-radius: 4px;
   padding: min(40px, 15%);
+}
+@media screen and (max-width: 768px) {
+  .aside-container,
+  .section-container {
+    width: 100%;
+  }
 }
 
 /* Aside */
