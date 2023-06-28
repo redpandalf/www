@@ -57,10 +57,11 @@ body {
 /* Fonts */
 *[class^="title-"] {
   font-family: 'Poppins', sans-serif;
+  letter-spacing: -.2;
 }
 .title-h1 {
   font-size: 5.0rem;
-  font-weight: 500;
+  font-weight: 600;
 
   span {    
     font-weight: 300;
