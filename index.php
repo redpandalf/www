@@ -32,7 +32,14 @@
     <header></header>
 
     <main class="main-container">
-      <aside class="aside-container">Aside</aside>
+
+      <aside class="aside-container">
+
+        <p class="title-h1">Alexia Savva</p>  
+        <h1 class="title-h2">Intégrateur web sénior<br>UX designer</h1>
+
+      </aside>
+
       <section class="section-container">
         Section
 
