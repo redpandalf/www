@@ -157,6 +157,8 @@ p:not(:last-of-type):not([class^=margin-]) {
   width: 34%;
   background-color: rgba(0, 0, 0, 0.35);
   color: #fff;
+  position: sticky;
+  top: 10px;
 }
 @media screen and (min-width: 640px) {
   .header-container > .row {

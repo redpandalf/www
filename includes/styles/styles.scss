@@ -171,6 +171,8 @@ p {
   width: 34%;
   background-color: rgba(0,0,0,.35);
   color: #fff;
+  position: sticky;
+  top: 10px;
 
   > .row {
     @media screen and (min-width: $screen-xs) {
