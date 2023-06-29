@@ -80,6 +80,7 @@ body {
 
 // FONTS
 //
+//
 *[class^="title-"] {
   font-family: 'Poppins', sans-serif;
 }
@@ -97,4 +98,9 @@ body {
   font-size: 2.4rem;
   font-weight: 400;
 }
+
+// Alignments 
+.align-left   { text-align: left; }
+.align-right  { text-align: right; }
+.align-center { text-align: center; }
 //

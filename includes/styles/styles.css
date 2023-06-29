@@ -82,4 +82,16 @@ body {
   font-weight: 400;
 }
 
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
 /*# sourceMappingURL=styles.css.map */

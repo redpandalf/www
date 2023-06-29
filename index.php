@@ -35,8 +35,8 @@
 
       <aside class="aside-container">
         <div class="row">
-          <p class="title-h1">Alexia<span>Savva</span></p>  
-          <h1 class="title-h2">Intégrateur web sénior<br>UX designer</h1>
+          <p class="align-right title-h1">Alexia<span>Savva</span></p>  
+          <h1 class="align-right title-h2">Intégrateur web sénior<br>UX designer</h1>
         </div>
       </aside>
 
