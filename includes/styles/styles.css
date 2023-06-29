@@ -95,6 +95,11 @@ p {
   background-color: rgba(0, 0, 0, 0.35);
   color: #fff;
 }
+.header-container > .row {
+  width: 80%;
+  margin: auto;
+  padding: 0;
+}
 .header-container .resume {
   text-align: center;
 }

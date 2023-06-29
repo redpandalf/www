@@ -127,6 +127,12 @@ p {
   background-color: rgba(0,0,0,.35);
   color: #fff;
 
+  > .row {
+    width: 80%;
+    margin: auto;
+    padding: 0;
+  }
+
   .resume {
     text-align: center;
     > * {
@@ -152,7 +158,6 @@ p {
 .main-container {
   border-radius: 4px;
   margin-top: 30px;
-
   // Desktop
   @media screen and (min-width: $screen-l) {    
     margin-top: 45px;
