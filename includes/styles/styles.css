@@ -53,10 +53,10 @@ body {
 }
 .aside-container > .row,
 .section-container > .row {
-  padding: 40px;
+  padding: 8%;
   border: 1px solid red;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1199px) {
   .aside-container,
   .section-container {
     width: 100%;

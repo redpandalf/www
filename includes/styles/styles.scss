@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,800|Roboto:300,400,500');
 
 $screen-s: 640px;
-$screen-xs: 768px;
+$screen-xs: 767px;
 $screen-m: 992px;
-$screen-l: 1200px;
+$screen-l: 1199px;
 
 
 html {
@@ -67,12 +67,12 @@ body {
   border-radius: 4px;
 
   > .row {
-    padding: 40px;
+    padding: 8%;
     border: 1px solid red;
   }
 
   // mobile 
-  @media screen and (max-width: $screen-xs) {
+  @media screen and (max-width: $screen-l) {
     width: 100%;
   }
 }
