@@ -32,7 +32,7 @@
       <header class="header-container">
         <div class="row">
 
-          <div class="resume">
+          <div class="resume margin-m">
             <p class="title-h1">Alexia<span>Savva</span></p>  
             <h1 class="title-h2">Intégrateur web sénior<br>UX designer</h1>
           </div>
