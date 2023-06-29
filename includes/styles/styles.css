@@ -124,10 +124,8 @@ p {
   color: #fff;
 }
 .header-container > .row {
-  width: 80%;
-  margin: auto;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 .header-container .resume {
   text-align: center;
