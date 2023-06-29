@@ -12,6 +12,13 @@ $primary-color: #18ADB3;
 $text-color:    #3A3A3A;
 $title-color:   #000;
 
+// Spaces
+$margin-xs: 20px;
+$margin-s : 30px;
+$margin-m : 45px;
+$margin-l : 60px;
+$margin-xl: 80px;
+
 
 html {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -100,11 +107,11 @@ p {
 // SPACES
 //
 //
-.margin-xs { margin-bottom: 20px; }
-.margin-s  { margin-bottom: 30px; }
-.margin-m  { margin-bottom: 45px; }
-.margin-l  { margin-bottom: 60px; }
-.margin-xl { margin-bottom: 80px; }
+.margin-xs { margin-bottom: $margin-xs; }
+.margin-s  { margin-bottom: $margin-s; }
+.margin-m  { margin-bottom: $margin-m; }
+.margin-l  { margin-bottom: $margin-l; }
+.margin-xl { margin-bottom: $margin-xl; }
 
 
 
@@ -176,6 +183,12 @@ p {
     // desktop
     @media screen and (min-width: $screen-l) {
       text-align: right;
+    }
+  }
+
+  .global-skills {
+    p:not(:last-of-type) {
+      margin-bottom: $margin-m;
     }
   }
 }

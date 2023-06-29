@@ -159,6 +159,9 @@ p:not(:last-of-type):not([class^=margin-]) {
     text-align: right;
   }
 }
+.header-container .global-skills p:not(:last-of-type) {
+  margin-bottom: 45px;
+}
 
 .main-container {
   width: 63%;

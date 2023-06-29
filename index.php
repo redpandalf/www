@@ -41,12 +41,14 @@
             <i class="fa-solid fa-location-dot is-primary"></i>
             Morbihan (56), Bretagne.
           </p>
-          
-          <p>Maîtrise des langages de templating et d’intégration web.</p>
-          <p>Maîtrises des outils de maquettage et UX design.</p>
-          <p>Esprit d’analyse et de synthèse.</p>
-          <p>Sens du détail.</p>
-          <p>Polyvalente, organisée, intuitive, pragmatique, autonome, astucieuse.</p>
+
+          <div class="global-skills">          
+            <p>Maîtrise des langages de templating et d’intégration web.</p>
+            <p>Maîtrises des outils de maquettage et UX design.</p>
+            <p>Esprit d’analyse et de synthèse.</p>
+            <p>Sens du détail.</p>
+            <p>Polyvalente, organisée, intuitive, pragmatique, autonome, astucieuse.</p>
+          </div>
 
         </div>
       </header>
