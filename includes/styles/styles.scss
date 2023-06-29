@@ -68,10 +68,22 @@ body {
 .header-container,
 .main-container {
   border-radius: 4px;
+  margin-top: 12%;
+
+  // Desktop
+  @media screen and (min-width: $screen-l) {      
+    
+    margin-top: 12%;
+  }
 
   > .row {
-    padding: 8%;
-    border: 1px solid red;
+    padding: 45px 8%;
+    //border: 1px solid red;
+
+    // Desktop
+    @media screen and (min-width: $screen-l) {      
+      padding: 8%;
+    }
   }
 
   // mobile 
