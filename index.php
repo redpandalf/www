@@ -37,7 +37,7 @@
             <h1 class="title-h2">Intégrateur web sénior<br>UX designer</h1>
           </div>
 
-          <p class="margin-l flexbox">
+          <p class="margin-l flexbox align-items-center ">
             <i class="fa-solid fa-location-dot is-primary"></i>
             Morbihan (56), Bretagne.
           </p>

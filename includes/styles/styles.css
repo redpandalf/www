@@ -80,6 +80,22 @@ p:not(:last-of-type):not([class^=margin-]) {
   padding-right: 10px;
 }
 
+.align-items-flex-start {
+  align-items: flex-start;
+}
+
+.align-items-flex-end {
+  align-items: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
 .margin-xs {
   margin-bottom: 20px;
 }
