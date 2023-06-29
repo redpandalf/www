@@ -132,8 +132,6 @@ p {
 
   > .row {
     padding: 45px 8%;
-    //border: 1px solid red;
-
     // Desktop
     @media screen and (min-width: $screen-l) {      
       padding: 8%;
@@ -142,7 +140,7 @@ p {
 
   // mobile 
   @media screen and (max-width: $screen-l) {
-    width: 100%;
+    width: 100%!important;
   }
 }
 
