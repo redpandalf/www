@@ -55,7 +55,9 @@ body {
   font-weight: 600;
   letter-spacing: -.1rem;
   line-height: 1;
-  // Desktop
+  margin-bottom: $margin-s;
+
+  // mobile
   @media screen and (max-width: $screen-l) {    
     font-size: 3.4rem;
   }
