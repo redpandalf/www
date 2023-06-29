@@ -78,14 +78,23 @@ body {
 p {
   margin: 0 0 1rem 0;
 }
-
 //
+
+// COLORS
+//
+.is-primary { color: $primary-color; }
 
 // FLEXBOX
 //
 //
 .flexbox {
   display: flex;
+
+  // with icon
+  > *:first-child(i) {
+    border: 1px solid red;
+    padding-right: 10px;
+  } 
 }
 
 

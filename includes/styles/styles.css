@@ -70,8 +70,16 @@ p {
   margin: 0 0 1rem 0;
 }
 
+.is-primary {
+  color: #18ADB3;
+}
+
 .flexbox {
   display: flex;
+}
+.flexbox > *:first-child(i) {
+  border: 1px solid red;
+  padding-right: 10px;
 }
 
 .global-container {
