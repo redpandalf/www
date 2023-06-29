@@ -30,7 +30,6 @@ body {
 
 /* MAIN CONTAINER */
 .main-container {
-  border: 1px solid red;
   max-width: 1600px;
   width: 92%;
   margin: auto;
@@ -46,24 +45,19 @@ body {
 /* Aside */
 .aside-container {
   width: 33%;
-  //min-width: 380px;
-
-  .title-h1 {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
+  background-color: rgba(0,0,0,.4);
+  color: #fff;
 }
 
 /* Section */
 .section-container {
-  width: 65%;
+  width: 65%;  
+  background-color: #fff;
 }
 
 /* Aside + Section */
 .aside-container,
 .section-container {
-  background-color: #fff;
   border-radius: 4px;
 
   > .row {
