@@ -34,14 +34,14 @@
     <main class="main-container">
 
       <aside class="aside-container">
-
-        <p class="title-h1">Alexia<span>Savva</span></p>  
-        <h1 class="title-h2">Intégrateur web sénior<br>UX designer</h1>
-
+        <div class="row">
+          <p class="title-h1">Alexia<span>Savva</span></p>  
+          <h1 class="title-h2">Intégrateur web sénior<br>UX designer</h1>
+        </div>
       </aside>
 
       <section class="section-container">
-        Section
+        <div class="row">Section</div>
 
       </section>
     </main>

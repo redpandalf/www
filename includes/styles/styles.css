@@ -48,8 +48,8 @@ body {
   background-color: #fff;
   border-radius: 4px;
 }
-.aside-container > div,
-.section-container > div {
+.aside-container > .row,
+.section-container > .row {
   padding: 40px;
   border: 1px solid red;
 }
