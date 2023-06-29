@@ -76,9 +76,8 @@ body {
 .align-center { text-align: center; }
 
 p {
-  margin: 0;
-  &:not(:last-of-type) {
-    margin-bottom: 1rem;
+  &:not(:last-of-type):not([class^="margin-"]) {
+    margin: 0 0 1rem;
   }
 }
 //

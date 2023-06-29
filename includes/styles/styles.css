@@ -66,11 +66,8 @@ body {
   text-align: center;
 }
 
-p {
-  margin: 0;
-}
-p:not(:last-of-type) {
-  margin-bottom: 1rem;
+p:not(:last-of-type):not([class^=margin-]) {
+  margin: 0 0 1rem;
 }
 
 .is-primary {
