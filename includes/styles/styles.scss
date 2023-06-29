@@ -138,6 +138,8 @@ p {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
+  position: relative;
 }
 
 // Header + Main //
@@ -171,8 +173,9 @@ p {
   width: 34%;
   background-color: rgba(0,0,0,.35);
   color: #fff;
-  position: sticky;
-  top: 0px;
+  position: -webkit-sticky; 
+  position: sticky; 
+  top: 0;
 
   > .row {
     @media screen and (min-width: $screen-xs) {

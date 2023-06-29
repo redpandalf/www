@@ -123,6 +123,7 @@ p:not(:last-of-type):not([class^=margin-]) {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .header-container,
@@ -157,8 +158,9 @@ p:not(:last-of-type):not([class^=margin-]) {
   width: 34%;
   background-color: rgba(0, 0, 0, 0.35);
   color: #fff;
+  position: -webkit-sticky;
   position: sticky;
-  top: 0px;
+  top: 0;
 }
 @media screen and (min-width: 640px) {
   .header-container > .row {
