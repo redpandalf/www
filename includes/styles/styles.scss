@@ -61,12 +61,12 @@ body {
   
 }
 .title-h2 {
-  font-size: 2.0rem;
+  font-size: 2.4rem;
   line-height: 1.5;
   font-weight: 300;
   // Desktop
-  @media screen and (min-width: $screen-l) {
-    font-size: 2.4rem;
+  @media screen and (max-width: $screen-l) {
+    font-size: 2.0rem;
   }
 }
 
