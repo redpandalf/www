@@ -45,13 +45,13 @@ body {
 }
 // H1
 .title-h1 {
-  font-size: 3.4rem;
+  font-size: 4.8rem;
   font-weight: 600;
   letter-spacing: -.1rem;
   line-height: 1;
   // Desktop
-  @media screen and (min-width: $screen-l) {    
-    font-size: 4.8rem;
+  @media screen and (max-width: $screen-l) {    
+    font-size: 3.4rem;
   }
 
   span {    
