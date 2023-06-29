@@ -56,7 +56,7 @@ body {
   padding: 8%;
   border: 1px solid red;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199.5px) {
   .aside-container,
   .section-container {
     width: 100%;
