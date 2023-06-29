@@ -68,11 +68,11 @@ body {
 .header-container,
 .main-container {
   border-radius: 4px;
-  margin-top: 12%;
+  margin-top: 45px;
 
   // Desktop
   @media screen and (min-width: $screen-l) {      
-    margin-top: 45px;
+    //
   }
 
   > .row {
