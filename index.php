@@ -29,24 +29,26 @@
   
   <body>
 
-    <header></header>
+    <div class="global-container">
 
-    <main class="main-container">
-
-      <aside class="aside-container">
+      <header class="header-container">
         <div class="row">
-          <p class="align-right title-h1">Alexia<span>Savva</span></p>  
-          <h1 class="align-right title-h2">Intégrateur web sénior<br>UX designer</h1>
+
+          <div class="resume">
+            <p class="title-h1">Alexia<span>Savva</span></p>  
+            <h1 class="title-h2">Intégrateur web sénior<br>UX designer</h1>
+          </div>
         </div>
-      </aside>
+      </header>
 
 
-      
-      <section class="section-container">
+
+      <main class="main-container">
+
         <div class="row">Section</div>
 
-      </section>
-    </main>
+      </main>
+    </div>
 
   </body>
 </html>

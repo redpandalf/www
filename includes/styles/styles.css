@@ -21,7 +21,7 @@ body {
 }
 
 /* MAIN CONTAINER */
-.main-container {
+.global-container {
   max-width: 1600px;
   width: 92%;
   margin: auto;
@@ -30,32 +30,40 @@ body {
   flex-wrap: wrap;
 }
 
-/* Aside */
-.aside-container {
+/* Header */
+.header-container {
   width: 33%;
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
 }
+.header-container .resume {
+  text-align: center;
+}
+@media screen and (min-width: 1199.5px) {
+  .header-container .resume {
+    text-align: right;
+  }
+}
 
 /* Section */
-.section-container {
+.main-container {
   width: 65%;
   background-color: #fff;
 }
 
-/* Aside + Section */
-.aside-container,
-.section-container {
+/* Header + Main */
+.header-container,
+.main-container {
   border-radius: 4px;
 }
-.aside-container > .row,
-.section-container > .row {
+.header-container > .row,
+.main-container > .row {
   padding: 8%;
   border: 1px solid red;
 }
 @media screen and (max-width: 1199.5px) {
-  .aside-container,
-  .section-container {
+  .header-container,
+  .main-container {
     width: 100%;
   }
 }
@@ -65,17 +73,19 @@ body {
 }
 
 .title-h1 {
-  font-size: 5rem;
+  font-size: 4.8rem;
   font-weight: 600;
-  letter-spacing: -0.15rem;
+  letter-spacing: -0.1rem;
   line-height: 1;
 }
 .title-h1 span {
   font-weight: 300;
+  padding-left: 6px;
 }
 
 .title-h2 {
   font-size: 2.4rem;
+  line-height: 1.5;
   font-weight: 400;
 }
 
@@ -89,6 +99,10 @@ body {
 
 .align-center {
   text-align: center;
+}
+
+p {
+  margin: 0 0 1rem 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
