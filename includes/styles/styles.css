@@ -73,10 +73,15 @@ body {
 }
 
 .title-h1 {
-  font-size: 4.8rem;
+  font-size: 3.2rem;
   font-weight: 600;
   letter-spacing: -0.1rem;
   line-height: 1;
+}
+@media screen and (min-width: 1199.5px) {
+  .title-h1 {
+    font-size: 4.8rem;
+  }
 }
 .title-h1 span {
   font-weight: 300;
