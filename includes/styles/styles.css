@@ -102,6 +102,7 @@ p {
 }
 .header-container .resume {
   text-align: center;
+  margin-bottom: 45px;
 }
 .header-container .resume > * {
   color: #fff !important;
