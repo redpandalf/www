@@ -90,6 +90,7 @@ p {
 }
 .header-container .resume {
   text-align: center;
+  color: #fff !important;
 }
 @media screen and (min-width: 1199.5px) {
   .header-container .resume {
