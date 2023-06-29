@@ -40,8 +40,7 @@
           </div>
 
           <p class="flexbox">
-            <i class="fa-solid fa-location"></i>
-            <i class="fa-solid fa-location-dot"></i>
+          <i class="fa-regular fa-map"></i>
             Morbihan (56), Bretagne.
           </p>
         </div>
