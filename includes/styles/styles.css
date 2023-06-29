@@ -122,8 +122,8 @@ p:not(:last-of-type):not([class^=margin-]) {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
-  position: relative;
 }
 
 .header-container,
