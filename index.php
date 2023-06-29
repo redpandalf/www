@@ -38,7 +38,7 @@
           </div>
 
           <p class="flexbox">
-          <i class="fa-regular fa-map"></i>
+            <i class="fa-solid fa-location-dot"></i>
             Morbihan (56), Bretagne.
           </p>
         </div>
@@ -56,6 +56,6 @@
 
 
     <script src="https://kit.fontawesome.com/6b226d6096.js" crossorigin="anonymous"></script>
-    
+
   </body>
 </html>
