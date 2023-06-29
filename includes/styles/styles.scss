@@ -91,7 +91,7 @@ p {
   display: flex;
 
   // with icon
-  > *:first-child(i) {
+  > *:first-of-type(i) {
     border: 1px solid red;
     padding-right: 10px;
   } 
