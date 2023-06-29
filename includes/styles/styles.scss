@@ -121,7 +121,9 @@ p {
 
   .resume {
     text-align: center;
-    color: #fff!important;
+    > * {
+      color: #fff!important;
+    }
 
     // desktop
     @media screen and (min-width: $screen-l) {
