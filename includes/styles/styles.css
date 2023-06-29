@@ -34,7 +34,7 @@ body {
 /* Aside */
 .aside-container {
   width: 30%;
-  min-width: 295px;
+  min-width: 380px;
 }
 
 /* Section */
@@ -47,7 +47,11 @@ body {
 .section-container {
   background-color: #fff;
   border-radius: 4px;
+}
+.aside-container > div,
+.section-container > div {
   padding: 40px;
+  border: 1px solid red;
 }
 @media screen and (max-width: 768px) {
   .aside-container,
