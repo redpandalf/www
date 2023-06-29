@@ -15,8 +15,6 @@
     <meta name="HandheldFriendly" content="true">
     <meta name="MobileOptimized" content="320">
 
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    
     <link rel="stylesheet" type="text/css" href="includes/styles/styles.css">
 
     <link rel="shortcut icon" href="../assets/img/favicon-panda.png">
@@ -55,5 +53,9 @@
       </main>
     </div>
 
+
+
+    <script src="https://kit.fontawesome.com/6b226d6096.js" crossorigin="anonymous"></script>
+    
   </body>
 </html>
