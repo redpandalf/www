@@ -154,7 +154,7 @@ p {
 
   > .row {
     @media screen and (min-width: $screen-xs) {
-      padding: 20%;
+      padding: min(4vw, 16px);
     }
   }
 
