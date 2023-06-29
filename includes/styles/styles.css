@@ -149,7 +149,7 @@ p:not(:last-of-type):not([class^=margin-]) {
 }
 .header-container .resume {
   text-align: center;
-  margin-bottom: 45px;
+  margin-bottom: 60px;
 }
 .header-container .resume > * {
   color: #fff !important;
