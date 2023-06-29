@@ -36,71 +36,6 @@ body {
 }
 
 
-
-/* MAIN CONTAINER */
-.global-container {
-  max-width: 1600px;
-  width: 92%;
-  margin: auto;
-
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-
-
-
-/* Header */
-.header-container {
-  width: 33%;
-  background-color: rgba(0,0,0,.35);
-  color: #fff;
-
-  .resume {
-    text-align: center;
-
-    // desktop
-    @media screen and (min-width: $screen-l) {
-      text-align: right;
-    }
-  }
-}
-
-/* Section */
-.main-container {
-  width: 65%;  
-  background-color: #fff;
-}
-
-/* Header + Main */
-.header-container,
-.main-container {
-  border-radius: 4px;
-  margin-top: 30px;
-
-  // Desktop
-  @media screen and (min-width: $screen-l) {    
-    margin-top: 45px;
-  }
-
-  > .row {
-    padding: 45px 8%;
-    //border: 1px solid red;
-
-    // Desktop
-    @media screen and (min-width: $screen-l) {      
-      padding: 8%;
-    }
-  }
-
-  // mobile 
-  @media screen and (max-width: $screen-l) {
-    width: 100%;
-  }
-}
-
-
 // FONTS
 //
 //
@@ -143,4 +78,87 @@ body {
 p {
   margin: 0 0 1rem 0;
 }
+
 //
+
+// FLEXBOX
+//
+//
+.flexbox {
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+// CONTENT's SECTIONS
+
+// Global container
+//
+.global-container {
+  max-width: 1600px;
+  width: 92%;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+// Header
+//
+.header-container {
+  width: 33%;
+  background-color: rgba(0,0,0,.35);
+  color: #fff;
+
+  .resume {
+    text-align: center;
+
+    // desktop
+    @media screen and (min-width: $screen-l) {
+      text-align: right;
+    }
+  }
+}
+
+// Main
+//
+.main-container {
+  width: 65%;  
+  background-color: #fff;
+}
+
+// Header + Main //
+.header-container,
+.main-container {
+  border-radius: 4px;
+  margin-top: 30px;
+
+  // Desktop
+  @media screen and (min-width: $screen-l) {    
+    margin-top: 45px;
+  }
+
+  > .row {
+    padding: 45px 8%;
+    //border: 1px solid red;
+
+    // Desktop
+    @media screen and (min-width: $screen-l) {      
+      padding: 8%;
+    }
+  }
+
+  // mobile 
+  @media screen and (max-width: $screen-l) {
+    width: 100%;
+  }
+}

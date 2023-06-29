@@ -22,66 +22,6 @@ body {
   box-sizing: border-box;
 }
 
-/* MAIN CONTAINER */
-.global-container {
-  max-width: 1600px;
-  width: 92%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-/* Header */
-.header-container {
-  width: 33%;
-  background-color: rgba(0, 0, 0, 0.35);
-  color: #fff;
-}
-.header-container .resume {
-  text-align: center;
-}
-@media screen and (min-width: 1199.5px) {
-  .header-container .resume {
-    text-align: right;
-  }
-}
-
-/* Section */
-.main-container {
-  width: 65%;
-  background-color: #fff;
-}
-
-/* Header + Main */
-.header-container,
-.main-container {
-  border-radius: 4px;
-  margin-top: 30px;
-}
-@media screen and (min-width: 1199.5px) {
-  .header-container,
-  .main-container {
-    margin-top: 45px;
-  }
-}
-.header-container > .row,
-.main-container > .row {
-  padding: 45px 8%;
-}
-@media screen and (min-width: 1199.5px) {
-  .header-container > .row,
-  .main-container > .row {
-    padding: 8%;
-  }
-}
-@media screen and (max-width: 1199.5px) {
-  .header-container,
-  .main-container {
-    width: 100%;
-  }
-}
-
 *[class^=title-] {
   font-family: "Poppins", sans-serif;
   color: #000;
@@ -128,6 +68,66 @@ body {
 
 p {
   margin: 0 0 1rem 0;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.global-container {
+  max-width: 1600px;
+  width: 92%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header-container {
+  width: 33%;
+  background-color: rgba(0, 0, 0, 0.35);
+  color: #fff;
+}
+.header-container .resume {
+  text-align: center;
+}
+@media screen and (min-width: 1199.5px) {
+  .header-container .resume {
+    text-align: right;
+  }
+}
+
+.main-container {
+  width: 65%;
+  background-color: #fff;
+}
+
+.header-container,
+.main-container {
+  border-radius: 4px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 1199.5px) {
+  .header-container,
+  .main-container {
+    margin-top: 45px;
+  }
+}
+.header-container > .row,
+.main-container > .row {
+  padding: 45px 8%;
+}
+@media screen and (min-width: 1199.5px) {
+  .header-container > .row,
+  .main-container > .row {
+    padding: 8%;
+  }
+}
+@media screen and (max-width: 1199.5px) {
+  .header-container,
+  .main-container {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

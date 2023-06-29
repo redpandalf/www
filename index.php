@@ -38,6 +38,11 @@
             <p class="title-h1">Alexia<span>Savva</span></p>  
             <h1 class="title-h2">Intégrateur web sénior<br>UX designer</h1>
           </div>
+
+          <p class="flexbox">
+            <i class="fa-solid fa-location-dot"></i>
+            Morbihan (56), Bretagne.
+          </p>
         </div>
       </header>
 
