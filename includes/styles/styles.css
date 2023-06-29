@@ -155,7 +155,7 @@ p:not(:last-of-type):not([class^=margin-]) {
 }
 
 .header-container {
-  width: 30%;
+  width: 32%;
   background-color: rgba(0, 0, 0, 0.35);
   color: #fff;
   position: -webkit-sticky;
