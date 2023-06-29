@@ -51,7 +51,7 @@ body {
 }
 // H1
 .title-h1 {
-  font-size: 4.8rem;
+  font-size: 4.4rem;
   font-weight: 600;
   letter-spacing: -.1rem;
   line-height: 1;
@@ -67,12 +67,12 @@ body {
   
 }
 .title-h2 {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   line-height: 1.45;
   font-weight: 300;
   // Desktop
   @media screen and (max-width: $screen-l) {
-    font-size: 2.0rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -169,7 +169,7 @@ p {
 // Header
 //
 .header-container {
-  width: 34%;
+  width: 30%;
   background-color: rgba(0,0,0,.35);
   color: #fff;
   position: -webkit-sticky; 
@@ -208,7 +208,7 @@ p {
 // Main
 //
 .main-container {
-  width: 63%;  
+  width: 65%;  
   min-height: 1000px;
   background-color: #fff;
 }
