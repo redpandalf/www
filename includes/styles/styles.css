@@ -123,9 +123,11 @@ p {
   background-color: rgba(0, 0, 0, 0.35);
   color: #fff;
 }
-.header-container > .row {
-  padding-left: 15%;
-  padding-right: 15%;
+@media screen and (min-width: 767.5px) and (max-width: 1199.5px) {
+  .header-container > .row {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 }
 .header-container .resume {
   text-align: center;
