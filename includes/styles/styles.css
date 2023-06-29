@@ -187,6 +187,7 @@ p:not(:last-of-type):not([class^=margin-]) {
 
 .main-container {
   width: 63%;
+  min-height: 1000px;
   background-color: #fff;
 }
 
