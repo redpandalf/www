@@ -160,7 +160,7 @@ p:not(:last-of-type):not([class^=margin-]) {
   }
 }
 .header-container .global-skills p:not(:last-of-type) {
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 
 .main-container {
