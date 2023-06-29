@@ -24,7 +24,7 @@ body {
 .main-container {
   border: 1px solid red;
   max-width: 1600px;
-  width: 90%;
+  width: 92%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -33,13 +33,16 @@ body {
 
 /* Aside */
 .aside-container {
-  width: 30%;
-  min-width: 380px;
+  width: 33%;
+}
+.aside-container .title-h1 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Section */
 .section-container {
-  width: 66%;
+  width: 65%;
 }
 
 /* Aside + Section */
@@ -60,7 +63,6 @@ body {
   }
 }
 
-/* Fonts */
 *[class^=title-] {
   font-family: "Poppins", sans-serif;
 }
@@ -68,7 +70,8 @@ body {
 .title-h1 {
   font-size: 5rem;
   font-weight: 600;
-  letter-spacing: -0.1rem;
+  letter-spacing: -0.15rem;
+  line-height: 1;
 }
 .title-h1 span {
   font-weight: 300;

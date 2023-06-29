@@ -32,7 +32,7 @@ body {
 .main-container {
   border: 1px solid red;
   max-width: 1600px;
-  width: 90%;
+  width: 92%;
   margin: auto;
 
   display: flex;
@@ -45,13 +45,19 @@ body {
 
 /* Aside */
 .aside-container {
-  width: 30%;
-  min-width: 380px;
+  width: 33%;
+  //min-width: 380px;
+
+  .title-h1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
 }
 
 /* Section */
 .section-container {
-  width: 66%;
+  width: 65%;
 }
 
 /* Aside + Section */
@@ -72,14 +78,16 @@ body {
 }
 
 
-/* Fonts */
+// FONTS
+//
 *[class^="title-"] {
   font-family: 'Poppins', sans-serif;
 }
 .title-h1 {
   font-size: 5.0rem;
   font-weight: 600;
-  letter-spacing: -.1rem;
+  letter-spacing: -.15rem;
+  line-height: 1;
 
   span {    
     font-weight: 300;
@@ -89,3 +97,4 @@ body {
   font-size: 2.4rem;
   font-weight: 400;
 }
+//
