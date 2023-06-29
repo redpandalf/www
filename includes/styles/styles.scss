@@ -24,7 +24,7 @@ body {
   background: url('../images/background-img.jpg') fixed top center repeat-x #000;
   background-size: contain;
   font-size: 1.4rem;
-  line-height: 1.4;
+  line-height: 1.6;
   color: $text-color;
   padding: 0;
   margin: 0;
@@ -76,7 +76,7 @@ body {
 
 p {
   &:not(:last-of-type):not([class^="margin-"]) {
-    margin: 0 0 1rem;
+    margin: 0 0 1.2rem;
   }
 }
 //
